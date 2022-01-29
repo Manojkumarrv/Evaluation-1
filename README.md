@@ -302,6 +302,14 @@ OUTPUT
 
 ALGORITHM:
 
+STEP 1:create an array and get values from the user.
+
+STEP 2:assign an variable and use arrow function and create a specified space to assin some values in it.
+
+STEP 3:use has to returns a boolean indicating whether an element with the specified key exists or not.
+
+STEP 4:print the output
+
 PSEUDOCODE:
 
 
@@ -328,12 +336,13 @@ LET d = NEW Set();
     
     
 13.QS
+
 ALGORITHM:
 
 PSEUDOCODE:
 
 
-```
+
 LET a={id: 1, name: "edison"};
 LET b={id: 1, name: "edison"};
 LET c={id: 1, name: "edison"};
@@ -353,7 +362,7 @@ FUNCTION obj(A,B){
 PRINT
 
 OUTPUT
-```
+
 
 
 14.QS
@@ -363,20 +372,19 @@ ALGORITHM:
 PSEUDOCODE:
 
 
-```
 LET array = [1,4,2,3,[10,20,20], [100,500,700,600],[2000,1000]];
 array.FLAT();
 PRINT
 
 OUTPUT
-```
+
 
 15.QS
 ALGORITHM:
 
 PSEUDOCODE:
 
-```
+
 LET array = [{id: 1, name: "edison" }, {id: 2, name: "Annand" }, {id: 3, name: "Vasnath"}];
 LET a = array.reduce((key,value) => {
     key[value.id] = key[value.id] + 1 || 1;
@@ -385,14 +393,14 @@ RETURN
 PRINT
 
 OUTPUT
-```
+
 
 16.QS
 ALGORITHM:
 
 PSEUDOCODE:
 
-```
+
 LET n = 5;
 LET a = "";
 FOR(LET i=0;i<=n;i++){
@@ -405,14 +413,12 @@ PRINT
 
 OUTPUT
 
-```
 
 17.QS
 ALGORITHM:
 
 PSEUDOCODE:
 
-```
 LET n = 5;
 LET a = "";
 LET count = 1;
@@ -426,14 +432,12 @@ FOR(LET i=1;i<=n;i++){
 PRINT
 
 OUTPUT
-```
 
 18.QS
 ALGORITHM:
 
 PSEUDOCODE:
 
-```
 LET n = 3;
 LET a = "";
 LET count = 1;
@@ -450,14 +454,12 @@ FOR(LET i=1 ; i <= n ; i++){
 PRINT
 
 OUTPUT
-```
 
 19.QS
 ALGORITHM:
 
 PSEUDOCODE:
 
-```
 LET n = 5;
 LET a = "";
 FOR (LET i = 1; i <= n; i++) {
@@ -482,13 +484,11 @@ PRINT
 
 OUTPUT
 
-```
 20.QS
 ALGORITHM:
 
 PSEUDOCODE:
 
-```
 console.log("hi");//prints whatever given inside it. 
 console.dir("");//its the way to see all the specified properties of an program.
 let a = "kumar";
@@ -525,7 +525,6 @@ for (let number = 2; number <= 5; number += 1) {
     console.assert(number % 2 === 0, {number: number, errorMsg: errorMsg});}
     //writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
 
-```
 
 
 
