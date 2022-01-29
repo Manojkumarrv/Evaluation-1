@@ -416,12 +416,21 @@ PRINT
 OUTPUT
 ```
 
-16.QS
+# 16.QS
 
-ALGORITHM:
+## ALGORITHM:
 
-PSEUDOCODE:
+STEP 1:get values from the user.
 
+STEP 2:use the for loop to create an external loop and create another for loop to creat internal loop.
+
+STEP 3:then use \n to print the values in next line.the external loop and internal loop is used to print row and column based stars.
+
+STEP 4:print the output.
+
+## PSEUDOCODE:
+
+```
 LET n = 5;
 LET a = "";
 FOR(LET i=0;i<=n;i++){
@@ -433,12 +442,23 @@ FOR(LET i=0;i<=n;i++){
 PRINT
 
 OUTPUT
+```
 
+# 17.QS
 
-17.QS
-ALGORITHM:
+## ALGORITHM:
 
-PSEUDOCODE:
+STEP 1:
+
+STEP 2:
+
+STEP 3:
+
+STEP 4:
+
+STEP 5:
+
+## PSEUDOCODE:
 
 LET n = 5;
 LET a = "";
