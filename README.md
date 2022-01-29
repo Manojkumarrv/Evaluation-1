@@ -448,18 +448,19 @@ OUTPUT
 
 ## ALGORITHM:
 
-STEP 1:
+STEP 1:get values from the user.
 
-STEP 2:
+STEP 2:use the for loop to create an external loop and create another for loop to creat internal loop.
 
-STEP 3:
+STEP 3:the external loop and internal loop is used to print row and column based stars.
 
-STEP 4:
+STEP 4:then use \n to print the values in next line. 
 
-STEP 5:
+STEP 5:print the output.this forms the right angle triangle.
 
 ## PSEUDOCODE:
 
+```
 LET n = 5;
 LET a = "";
 LET count = 1;
@@ -473,14 +474,18 @@ FOR(LET i=1;i<=n;i++){
 PRINT
 
 OUTPUT
+```
 
 
-18.QS
-ALGORITHM:
+# 18.QS
 
-PSEUDOCODE:
+## ALGORITHM:
 
 
+
+## PSEUDOCODE:
+
+```
 LET n = 3;
 LET a = "";
 LET count = 1;
@@ -497,13 +502,26 @@ FOR(LET i=1 ; i <= n ; i++){
 PRINT
 
 OUTPUT
+```
 
-19.QS
-ALGORITHM:
+# 19.QS
 
-PSEUDOCODE:
+## ALGORITHM:
+
+STEP 1:get values from the user.
+
+STEP 2:use the for loop to create an external loop and create another for loop to creat internal loop.
+
+STEP 3:the 1st and 2nd for loop is used to print spaces.
+
+STEP 4:by using the internal loop the triangle is formed to create the upper side and lower side of the primid.
+
+STEP 5:print the output.
 
 
+## PSEUDOCODE:
+
+```
 LET n = 5;
 LET a = "";
 FOR (LET i = 1; i <= n; i++) {
@@ -527,27 +545,28 @@ FOR (LET i = 1; i <= n - 1; i++) {
 PRINT
 
 OUTPUT
+```
+# 20.QS
 
-20.QS
-ALGORITHM:
+## ALGORITHM:
 
-PSEUDOCODE:
+## PSEUDOCODE:
+
+```
+PRINT => console.log("hi");//prints whatever given inside it. 
+PRINT => console.dir("");//its the way to see all the specified properties of an program.
+LET a = "kumar";
+PRINT => console.count(a);//it counts how many times it has been executed.
+
+PRINT => console.table(["hi","im","kumar"]);//displays the output in form of table.
+PRINT => console.time("hi");// starts the timer.
+PRINT => console.timeLog("hi");// calculates the time from console.time.
+PRINT => console.timeEnd("hi");// ends the timer.
 
 
-console.log("hi");//prints whatever given inside it. 
-console.dir("");//its the way to see all the specified properties of an program.
-let a = "kumar";
-console.count(a);//it counts how many times it has been executed.
-
-console.table(["hi","im","kumar"]);//displays the output in form of table.
-console.time("hi");// starts the timer.
-console.timeLog("hi");// calculates the time from console.time.
-console.timeEnd("hi");// ends the timer.
-
-
-function fo() {
-    function ba() {
-      console.trace();
+FUNCTION fo() {
+    FUNCTION ba() {
+      PRINT
     }
     ba();
   }
@@ -555,20 +574,20 @@ function fo() {
   fo();//the following trace will be displayed.
 
 
-console.log("hi");
-console.group();//make an inlie group.
-console.log("Level 2");
-console.group();
-console.log("Level 3");
-console.groupEnd();//ends an inline group 
+PRINT => console.log("hi");
+PRINT => console.group();//make an inlie group.
+PRINT => console.log("Level 2");
+PRINT => console.group();
+PRINT => console.log("Level 3");
+PRINT => console.groupEnd();//ends an inline group 
 
 
 
-const errorMsg = 'the # is not even';
-for (let number = 2; number <= 5; number += 1) {
-    console.log('the # is ' + number);
-    console.assert(number % 2 === 0, {number: number, errorMsg: errorMsg});}
-    
+CONST errorMsg = 'the # is not even';
+FOR (let number = 2; number <= 5; number += 1) {
+    PRINT('the # is ' + number);
+    PRINT(number % 2 === 0, {number: number, errorMsg: errorMsg});}
+```    
 
 
 
