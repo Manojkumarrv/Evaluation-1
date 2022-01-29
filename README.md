@@ -20,7 +20,7 @@ STEP 6:to print the output on the screen.
 ## PSEUDOCODE:
 
 ```
-** BEGIN
+BEGIN
 FUNCTION PrimeNumber(x) {
     FOR(let i = 2; i < x; i++) { 
       IF(x % i === 0) 
@@ -30,7 +30,7 @@ FUNCTION PrimeNumber(x) {
   }
   PRINT
   OUTPUT
-  END **
+  END
   ```
 
 # 2.QS
