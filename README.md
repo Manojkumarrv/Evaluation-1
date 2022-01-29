@@ -133,12 +133,12 @@ OUTPUT
 ```
 
 8.QS
+
 ALGORITHM:
 
 PSEUDOCODE:
 
 ```
-
 FUNCTION kumar(a) {
     RETURN a.filter((element, index) => a.indexOf(element) === index);
   }
@@ -147,10 +147,10 @@ FUNCTION kumar(a) {
   PRINT
   
   OUTPUT
-  
   ```
   
 9.QS
+
 ALGORITHM:
 
 PSEUDOCODE:
@@ -164,10 +164,10 @@ FOR(LET i=1;i<=10;i++)
 PRINT
 
 OUTPUT
-
 ```
 
 10.QS
+
 ALGORITHM:
 
 PSEUDOCODE:
@@ -210,7 +210,6 @@ PSEUDOCODE:
 
 
 ```
-
 LET d = NEW Set();
     LET array = [
         {id: 1, name: 'Stephen covey'},
@@ -267,14 +266,13 @@ ALGORITHM:
 
 PSEUDOCODE:
 
-```
 
+```
 LET array = [1,4,2,3,[10,20,20], [100,500,700,600],[2000,1000]];
 array.FLAT();
 PRINT
 
 OUTPUT
-
 ```
 
 15.QS
@@ -283,7 +281,6 @@ ALGORITHM:
 PSEUDOCODE:
 
 ```
-
 LET array = [{id: 1, name: "edison" }, {id: 2, name: "Annand" }, {id: 3, name: "Vasnath"}];
 LET a = array.reduce((key,value) => {
     key[value.id] = key[value.id] + 1 || 1;
@@ -292,7 +289,6 @@ RETURN
 PRINT
 
 OUTPUT
-
 ```
 
 16.QS
@@ -321,7 +317,6 @@ ALGORITHM:
 PSEUDOCODE:
 
 ```
-
 LET n = 5;
 LET a = "";
 LET count = 1;
@@ -335,7 +330,6 @@ FOR(LET i=1;i<=n;i++){
 PRINT
 
 OUTPUT
-
 ```
 
 18.QS
@@ -360,7 +354,6 @@ FOR(LET i=1 ; i <= n ; i++){
 PRINT
 
 OUTPUT
-
 ```
 
 19.QS
