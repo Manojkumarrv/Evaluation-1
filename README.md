@@ -9,8 +9,11 @@ STEP 1:create a function .
 STEP 2:get input from the user.
 
 STEP 3:assign and calculate the values using operators .
+
 STEP 4:increment the values of i++.the value of x should be greater than i becozz i should not get divided by x.
+
 STEP 5:if the condition is satisfied it returns false otherwise the result will be true.
+
 STEP 6:to print the output on the screen.
 
 
@@ -31,10 +34,14 @@ FUNCTION PrimeNumber(x) {
   ```
 
 2.QS
+
 ALGORITHM:
 
 STEP 1:get two int from the user.
+
 STEP 2:check both the int are equal.
+
+STEP 3:print output.
 
 PSEUDOCODE:
 
@@ -53,7 +60,19 @@ OUTPUT
 ```
 
 3.QS
+
 ALGORITHM:
+
+STEP 1:create a function.
+
+STEP 2:get value from the user.
+
+STEP 3:use the FOR loop to decrement the value and print it.
+
+STEP 4:return the function.
+
+STEP 5:print the output.
+
 PSEUDOCODE:
 
 ```
@@ -68,7 +87,20 @@ RETURN
 OUTPUT
 ```
 4.QS
+
 ALGORITHM:
+
+STEP 1:create a function .
+
+STEP 2:get the value from user.
+
+STEP 3:split,reverse,join the value .
+
+STEP 4:create a function.
+
+STEP 5:print it then return the value.
+
+STEP 6:print the output.
 
 PSEUDOCODE:
 
@@ -88,7 +120,16 @@ PRINT
 OUTPUT
 ```
 5.QS
+
 ALGORITHM:
+
+STEP 1:get value from the user.
+
+STEP 2:split,reverse and join the value.
+
+STEP 3:use if and else statement to print the value if the condition is ok or not.
+
+STEP 4:print the output.
 
 PSEUDOCODE:
 
@@ -104,7 +145,20 @@ IF(s === sReverse) {
 OUTPUT
 ```
 6.QS
+
 ALGORITHM:
+
+STEP 1:get value from user and form an array.
+
+STEP 2:use map function to modify the array.
+
+STEP 3:print the output.
+
+STEP 4:get value from the uer to form an array.
+
+STEP 5:use foreach method.
+
+STEP 6:print the output.
 
 PSEUDOCODE:
 
@@ -119,8 +173,18 @@ forest.FOREACH(forest => { PRINT
 });
 OUTPUT
 ```
+
 7.QS
+
 ALGORITHM:
+
+STEP 1:get values from the user.
+
+STEP 2:floor function returns the largest integer less than or equal to a given number.
+
+STEP 3:use ramdom function to choose a random number.
+
+STEP 4:print the output.
 
 PSEUDOCODE:
 
@@ -135,6 +199,15 @@ OUTPUT
 8.QS
 
 ALGORITHM:
+
+STEP 1:create a function. get values from the user.
+
+STEP 2:use filter function to filter the reccomended values .
+
+STEP 3:use indexof function to search the entire calling value and returns it. 
+
+STEP 4:print the output
+
 
 PSEUDOCODE:
 
@@ -153,6 +226,12 @@ FUNCTION kumar(a) {
 
 ALGORITHM:
 
+STEP 1:get values from the user.
+
+STEP 2:use for loop to increment the values in integer and sum it.
+
+STEP 3:print the output. 
+
 PSEUDOCODE:
 
 ```
@@ -169,6 +248,16 @@ OUTPUT
 10.QS
 
 ALGORITHM:
+
+STEP 1:create a function.
+
+STEP 2:get value from the user.
+
+STEP 3:use for loop to sum the values.
+
+STEP 4:if and else statement specifies the condition and returns the value to sum odd and even.
+
+STEP 5:print the output.
 
 PSEUDOCODE:
 
@@ -191,12 +280,18 @@ RETURN
 ```
 
 11.QS
+
 ALGORITHM:
+
+STEP 1:get values from the user.
+
+STEP 2:to merge it use spread method.
+
+STEP 3:print the output.
 
 PSEUDOCODE:
 
 ```
-
 LET = (a = [1,2,9,3,5,1,4,5], b= [11,54,70,40]);
 PRINT
 
@@ -204,6 +299,7 @@ OUTPUT
 ```
 
 12.QS
+
 ALGORITHM:
 
 PSEUDOCODE:
