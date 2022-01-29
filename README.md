@@ -1,8 +1,8 @@
 # Evaluation-1
 
-1.QS
+# 1.QS
 
-ALGORITHOM:
+## ALGORITHOM:
 
 STEP 1:create a function .
 
@@ -17,10 +17,10 @@ STEP 5:if the condition is satisfied it returns false otherwise the result will 
 STEP 6:to print the output on the screen.
 
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
-BEGIN
+** BEGIN
 FUNCTION PrimeNumber(x) {
     FOR(let i = 2; i < x; i++) { 
       IF(x % i === 0) 
@@ -30,12 +30,12 @@ FUNCTION PrimeNumber(x) {
   }
   PRINT
   OUTPUT
-  END
+  END **
   ```
 
-2.QS
+# 2.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:get two int from the user.
 
@@ -43,7 +43,7 @@ STEP 2:check both the int are equal.
 
 STEP 3:print output.
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
 BEGIN 
@@ -59,9 +59,9 @@ PRINT
 OUTPUT
 ```
 
-3.QS
+# 3.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:create a function.
 
@@ -73,7 +73,7 @@ STEP 4:return the function.
 
 STEP 5:print the output.
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
 FUNCTION String(a) {
@@ -86,9 +86,9 @@ FUNCTION String(a) {
 RETURN
 OUTPUT
 ```
-4.QS
+# 4.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:create a function .
 
@@ -102,7 +102,7 @@ STEP 5:print it then return the value.
 
 STEP 6:print the output.
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
 FUNCTION String(a) {
@@ -119,9 +119,9 @@ LET reverse = FUNCTION (a) {
 PRINT
 OUTPUT
 ```
-5.QS
+# 5.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:get value from the user.
 
@@ -131,7 +131,7 @@ STEP 3:use if and else statement to print the value if the condition is ok or no
 
 STEP 4:print the output.
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
 LET s = "civic";
@@ -144,9 +144,9 @@ IF(s === sReverse) {
 }
 OUTPUT
 ```
-6.QS
+# 6.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:get value from user and form an array.
 
@@ -160,7 +160,7 @@ STEP 5:use foreach method.
 
 STEP 6:print the output.
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
 LET a = [1,2,3,4,5,6];
@@ -174,9 +174,9 @@ forest.FOREACH(forest => { PRINT
 OUTPUT
 ```
 
-7.QS
+# 7.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:get values from the user.
 
@@ -186,7 +186,7 @@ STEP 3:use ramdom function to choose a random number.
 
 STEP 4:print the output.
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
 
@@ -196,9 +196,9 @@ OUTPUT
 
 ```
 
-8.QS
+# 8.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:create a function. get values from the user.
 
@@ -209,7 +209,7 @@ STEP 3:use indexof function to search the entire calling value and returns it.
 STEP 4:print the output
 
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
 FUNCTION kumar(a) {
@@ -222,9 +222,9 @@ FUNCTION kumar(a) {
   OUTPUT
   ```
   
-9.QS
+# 9.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:get values from the user.
 
@@ -232,7 +232,7 @@ STEP 2:use for loop to increment the values in integer and sum it.
 
 STEP 3:print the output. 
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
 LET count = 0;
@@ -245,9 +245,9 @@ PRINT
 OUTPUT
 ```
 
-10.QS
+# 10.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:create a function.
 
@@ -259,7 +259,7 @@ STEP 4:if and else statement specifies the condition and returns the value to su
 
 STEP 5:print the output.
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
 CONST a = FUNCTION(n){
@@ -279,9 +279,9 @@ RETURN
 
 ```
 
-11.QS
+# 11.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:get values from the user.
 
@@ -289,7 +289,7 @@ STEP 2:to merge it use spread method.
 
 STEP 3:print the output.
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 ```
 LET = (a = [1,2,9,3,5,1,4,5], b= [11,54,70,40]);
@@ -298,9 +298,9 @@ PRINT
 OUTPUT
 ```
 
-12.QS
+# 12.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:create an array and get values from the user.
 
@@ -310,7 +310,7 @@ STEP 3:use has to returns a boolean indicating whether an element with the speci
 
 STEP 4:print the output
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
 
 ```
