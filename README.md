@@ -38,7 +38,8 @@ STEP 2:check both the int are equal.
 
 PSEUDOCODE:
 
-**BEGIN 
+```
+BEGIN 
 LET a = 10;
 LET b = 10;
 CONST ex1 = (a == b);
@@ -49,11 +50,13 @@ CONST ex3 = (c == d);
 CONST ex4 = (c === d);
 PRINT
 OUTPUT
-
+```
 
 3.QS
 ALGORITHM:
 PSEUDOCODE:
+
+```
 FUNCTION String(a) {
     LET newString = "";
     FOR (LET i = a.LENGTH - 1; i >= 0; i--) {
@@ -63,11 +66,13 @@ FUNCTION String(a) {
 }
 RETURN
 OUTPUT
-
+```
 4.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
 FUNCTION String(a) {
     VAR split= a.SPLIT(" "); 
     VAR reverse = split.REVERSE(); 
@@ -81,11 +86,13 @@ LET reverse = FUNCTION (a) {
 
 PRINT
 OUTPUT
-
+```
 5.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
 LET s = "civic";
 LET sReverse = s.SPLIT("").REVERSE().JOIN("");
 
@@ -95,11 +102,13 @@ IF(s === sReverse) {
   PRINT
 }
 OUTPUT
-
+```
 6.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
 LET a = [1,2,3,4,5,6];
 LET b = a.MAP(a => a*2);
 PRINT
@@ -109,19 +118,27 @@ LET forest = ['animals','birds','trees','reptiles','insects'];
 forest.FOREACH(forest => { PRINT
 });
 OUTPUT
-
+```
 7.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
+
 PRINT(Math.FLOOR((Math.RANDOM()*5)+1));
 
 OUTPUT
+
+```
 
 8.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
+
 FUNCTION kumar(a) {
     RETURN a.filter((element, index) => a.indexOf(element) === index);
   }
@@ -131,10 +148,14 @@ FUNCTION kumar(a) {
   
   OUTPUT
   
+  ```
+  
 9.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
 LET count = 0;
 FOR(LET i=1;i<=10;i++)
 {
@@ -144,10 +165,14 @@ PRINT
 
 OUTPUT
 
+```
+
 10.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
 CONST a = FUNCTION(n){
     LET b = 0;
     LET d = 0;
@@ -163,19 +188,29 @@ CONST a = FUNCTION(n){
 };
 RETURN
 
+```
+
 11.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
+
 LET = (a = [1,2,9,3,5,1,4,5], b= [11,54,70,40]);
 PRINT
 
 OUTPUT
+```
 
 12.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+
+```
+
 LET d = NEW Set();
     LET array = [
         {id: 1, name: 'Stephen covey'},
@@ -194,10 +229,16 @@ LET d = NEW Set();
     PRINT
     
     OUTPUT
+    ```
+    
+    
 13.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+
+```
 LET a={id: 1, name: "edison"};
 LET b={id: 1, name: "edison"};
 LET c={id: 1, name: "edison"};
@@ -217,21 +258,32 @@ FUNCTION obj(A,B){
 PRINT
 
 OUTPUT
+```
+
 
 14.QS
+
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
+
 LET array = [1,4,2,3,[10,20,20], [100,500,700,600],[2000,1000]];
 array.FLAT();
 PRINT
 
 OUTPUT
 
+```
+
 15.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
+
 LET array = [{id: 1, name: "edison" }, {id: 2, name: "Annand" }, {id: 3, name: "Vasnath"}];
 LET a = array.reduce((key,value) => {
     key[value.id] = key[value.id] + 1 || 1;
@@ -241,10 +293,14 @@ PRINT
 
 OUTPUT
 
+```
+
 16.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
 LET n = 5;
 LET a = "";
 FOR(LET i=0;i<=n;i++){
@@ -257,10 +313,15 @@ PRINT
 
 OUTPUT
 
+```
+
 17.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
+
 LET n = 5;
 LET a = "";
 LET count = 1;
@@ -275,10 +336,14 @@ PRINT
 
 OUTPUT
 
+```
+
 18.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
 LET n = 3;
 LET a = "";
 LET count = 1;
@@ -296,10 +361,14 @@ PRINT
 
 OUTPUT
 
+```
+
 19.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
+```
 LET n = 5;
 LET a = "";
 FOR (LET i = 1; i <= n; i++) {
@@ -323,11 +392,51 @@ FOR (LET i = 1; i <= n - 1; i++) {
 PRINT
 
 OUTPUT
+
+```
 20.QS
 ALGORITHM:
 
 PSEUDOCODE:
 
+```
+console.log("hi");//prints whatever given inside it. 
+console.dir("");//its the way to see all the specified properties of an program.
+let a = "kumar";
+console.count(a);//it counts how many times it has been executed.
+
+console.table(["hi","im","kumar"]);//displays the output in form of table.
+console.time("hi");// starts the timer.
+console.timeLog("hi");// calculates the time from console.time.
+console.timeEnd("hi");// ends the timer.
+
+
+function fo() {
+    function ba() {
+      console.trace();
+    }
+    ba();
+  }
+  
+  fo();//the following trace will be displayed.
+
+
+console.log("hi");
+console.group();//make an inlie group.
+console.log("Level 2");
+console.group();
+console.log("Level 3");
+console.groupEnd();//ends an inline group 
+
+
+
+const errorMsg = 'the # is not even';
+for (let number = 2; number <= 5; number += 1) {
+    console.log('the # is ' + number);
+    console.assert(number % 2 === 0, {number: number, errorMsg: errorMsg});}
+    //writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
+
+```
 
 
 
