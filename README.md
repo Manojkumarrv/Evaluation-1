@@ -334,14 +334,21 @@ LET d = NEW Set();
     OUTPUT
     ```
     
-    
 13.QS
 
 ALGORITHM:
 
+STEP 1:create a function and assign the parameters to get values from the user.
+
+STEP 2:inside the function use if and else statement to specify the condition.
+
+STEP 3:return the values if the specied condition is true.
+
+STEP 4:print the output.
+
 PSEUDOCODE:
 
-```
+
 LET a={id: 1, name: "edison"};
 LET b={id: 1, name: "edison"};
 LET c={id: 1, name: "edison"};
@@ -361,7 +368,6 @@ FUNCTION obj(A,B){
 PRINT
 
 OUTPUT
-```
 
 
 
@@ -369,8 +375,13 @@ OUTPUT
 
 ALGORITHM:
 
-PSEUDOCODE:
+STEP 1:create an array and get values from user.
 
+STEP 2:use flat method to merge multiple array.
+
+STEP 3:print the output.
+
+PSEUDOCODE:
 
 LET array = [1,4,2,3,[10,20,20], [100,500,700,600],[2000,1000]];
 array.FLAT();
@@ -379,7 +390,15 @@ PRINT
 OUTPUT
 
 15.QS
+
 ALGORITHM:
+
+STEP 1:get values from the user inside an array.
+
+STEP 2:specify the conditions to return the values. 
+
+STEP 3:print the output.
+
 
 PSEUDOCODE:
 
@@ -393,6 +412,7 @@ PRINT
 OUTPUT
 
 16.QS
+
 ALGORITHM:
 
 PSEUDOCODE:
@@ -523,8 +543,7 @@ const errorMsg = 'the # is not even';
 for (let number = 2; number <= 5; number += 1) {
     console.log('the # is ' + number);
     console.assert(number % 2 === 0, {number: number, errorMsg: errorMsg});}
-    //writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
-
+    
 
 
 
