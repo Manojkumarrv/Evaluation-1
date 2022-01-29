@@ -3,12 +3,12 @@
 1_primenumbers
 
 ALGORITHOM:
-START:create a function .
-INPUT:get input from the user.
-CALCULATE:assign and calculate the values using operators .
-INCREMENT:increment the values of i++.the value of x should be greater than i becozz i should not get divided by x.
-RETURN:if the condition is satisfied it returns false otherwise the result will be true.
-PRINT:to print the output on the screen.
+STEP 1:create a function .
+STEP 2:get input from the user.
+STEP 3:assign and calculate the values using operators .
+STEP 4:increment the values of i++.the value of x should be greater than i becozz i should not get divided by x.
+STEP 5:if the condition is satisfied it returns false otherwise the result will be true.
+STEP 6:to print the output on the screen.
 
 
 PSEUDOCODE:
