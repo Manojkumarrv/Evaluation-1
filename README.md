@@ -341,8 +341,7 @@ ALGORITHM:
 
 PSEUDOCODE:
 
-
-
+```
 LET a={id: 1, name: "edison"};
 LET b={id: 1, name: "edison"};
 LET c={id: 1, name: "edison"};
@@ -362,6 +361,7 @@ FUNCTION obj(A,B){
 PRINT
 
 OUTPUT
+```
 
 
 
@@ -378,12 +378,10 @@ PRINT
 
 OUTPUT
 
-
 15.QS
 ALGORITHM:
 
 PSEUDOCODE:
-
 
 LET array = [{id: 1, name: "edison" }, {id: 2, name: "Annand" }, {id: 3, name: "Vasnath"}];
 LET a = array.reduce((key,value) => {
@@ -394,12 +392,10 @@ PRINT
 
 OUTPUT
 
-
 16.QS
 ALGORITHM:
 
 PSEUDOCODE:
-
 
 LET n = 5;
 LET a = "";
@@ -433,10 +429,12 @@ PRINT
 
 OUTPUT
 
+
 18.QS
 ALGORITHM:
 
 PSEUDOCODE:
+
 
 LET n = 3;
 LET a = "";
@@ -459,6 +457,7 @@ OUTPUT
 ALGORITHM:
 
 PSEUDOCODE:
+
 
 LET n = 5;
 LET a = "";
@@ -488,6 +487,7 @@ OUTPUT
 ALGORITHM:
 
 PSEUDOCODE:
+
 
 console.log("hi");//prints whatever given inside it. 
 console.dir("");//its the way to see all the specified properties of an program.
@@ -524,6 +524,7 @@ for (let number = 2; number <= 5; number += 1) {
     console.log('the # is ' + number);
     console.assert(number % 2 === 0, {number: number, errorMsg: errorMsg});}
     //writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
+
 
 
 
