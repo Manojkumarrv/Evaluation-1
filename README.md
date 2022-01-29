@@ -312,7 +312,6 @@ STEP 4:print the output
 
 ## PSEUDOCODE:
 
-
 ```
 LET d = NEW Set();
     LET array = [
@@ -332,11 +331,12 @@ LET d = NEW Set();
     PRINT
     
     OUTPUT
-    ```
     
-13.QS
+```
+    
+# 13.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:create a function and assign the parameters to get values from the user.
 
@@ -346,9 +346,9 @@ STEP 3:return the values if the specied condition is true.
 
 STEP 4:print the output.
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
-
+```
 LET a={id: 1, name: "edison"};
 LET b={id: 1, name: "edison"};
 LET c={id: 1, name: "edison"};
@@ -368,12 +368,13 @@ FUNCTION obj(A,B){
 PRINT
 
 OUTPUT
+```
 
 
 
-14.QS
+# 14.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:create an array and get values from user.
 
@@ -381,17 +382,19 @@ STEP 2:use flat method to merge multiple array.
 
 STEP 3:print the output.
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
+```
 LET array = [1,4,2,3,[10,20,20], [100,500,700,600],[2000,1000]];
 array.FLAT();
 PRINT
 
 OUTPUT
+```
 
-15.QS
+# 15.QS
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:get values from the user inside an array.
 
@@ -400,8 +403,9 @@ STEP 2:specify the conditions to return the values.
 STEP 3:print the output.
 
 
-PSEUDOCODE:
+## PSEUDOCODE:
 
+```
 LET array = [{id: 1, name: "edison" }, {id: 2, name: "Annand" }, {id: 3, name: "Vasnath"}];
 LET a = array.reduce((key,value) => {
     key[value.id] = key[value.id] + 1 || 1;
@@ -410,6 +414,7 @@ RETURN
 PRINT
 
 OUTPUT
+```
 
 16.QS
 
