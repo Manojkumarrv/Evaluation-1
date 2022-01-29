@@ -481,6 +481,17 @@ OUTPUT
 
 ## ALGORITHM:
 
+STEP 1:get values from the user.
+
+STEP 2:create a for loop to create spaceon the left side.
+
+STEP 3:use the for loop to create an external loop and create another for loop to creat internal loop.
+
+STEP 4:the external loop and internal loop is used to print row and column based stars.
+
+STEP 5:then use \n to print the values in next line. 
+
+STEP 6:print the output.this forms the right angle triangle.
 
 
 ## PSEUDOCODE:
@@ -549,6 +560,10 @@ OUTPUT
 # 20.QS
 
 ## ALGORITHM:
+
+STEP 1:get values from the user.
+
+STEP 2:print the output by using different methods of console.
 
 ## PSEUDOCODE:
 
